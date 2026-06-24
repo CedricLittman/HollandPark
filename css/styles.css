@@ -1,0 +1,31 @@
+.sponsor-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #1e88e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+}
+
+.sponsor-button:hover {
+  background-color: #f80606;
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  text-align: center;
+  margin-top: 80px;
+  padding: 40px 20px;
+  background-color: #f5f7fa;
+}
+
+header p {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
