@@ -7,7 +7,6 @@
   border-radius: 5px;
   margin-top: 10px;
   transition: all 0.2s ease;
-  margin-top: 20px;
 }
 
 .sponsor-button:hover {
@@ -28,4 +27,25 @@ header p {
   margin: 20px auto;
   line-height: 1.6;
   font-size: 1.1em;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 25px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
 }
