@@ -48,6 +48,7 @@ section {
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  scroll-margin-top: 40px;
 }
 
 h2 {
@@ -96,6 +97,9 @@ h2 {
 }
 
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #1e88e5;
   text-align: center;
   padding: 15px;
@@ -109,10 +113,10 @@ nav a {
   margin: 0 15px;
   font-weight: bold;
   display: inline-block;
+  transition: all 0.25s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
   color: red;
   transform: translateY(-4px);
 }
@@ -126,4 +130,8 @@ nav a::after {
   height: 2px;
   background: red;
   transition: width 0.25s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
